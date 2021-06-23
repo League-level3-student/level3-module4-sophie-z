@@ -34,11 +34,12 @@ public class MazeMaker {
     // 4. Complete the selectNextPathMethod
     private static void selectNextPath(Cell currentCell) {
         // A. SET currentCell as visited
-
+    	currentCell.setBeenVisited(true);
         // B. check for unvisited neighbors using the cell
-
+    	getUnvisitedNeighbors(currentCell);
         // C. if has unvisited neighbors,
-
+    	if() {
+    		
         // C1. select one at random.
 
         // C2. push it to the stack
@@ -48,7 +49,7 @@ public class MazeMaker {
         // C4. make the new cell the current cell and SET it as visited
 
         // C5. call the selectNextPath method with the current cell
-
+    	}
 
         // D. if all neighbors are visited
 
